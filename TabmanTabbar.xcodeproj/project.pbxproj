@@ -9,7 +9,7 @@
 /* Begin PBXBuildFile section */
 		0409DF0A27DF918A003BFAA5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0409DF0927DF918A003BFAA5 /* AppDelegate.swift */; };
 		0409DF0C27DF918A003BFAA5 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0409DF0B27DF918A003BFAA5 /* SceneDelegate.swift */; };
-		0409DF0E27DF918A003BFAA5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0409DF0D27DF918A003BFAA5 /* ViewController.swift */; };
+		0409DF0E27DF918A003BFAA5 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0409DF0D27DF918A003BFAA5 /* HomeViewController.swift */; };
 		0409DF1127DF918A003BFAA5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0409DF0F27DF918A003BFAA5 /* Main.storyboard */; };
 		0409DF1427DF918A003BFAA5 /* TabmanTabbar.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 0409DF1227DF918A003BFAA5 /* TabmanTabbar.xcdatamodeld */; };
 		0409DF1627DF918C003BFAA5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0409DF1527DF918C003BFAA5 /* Assets.xcassets */; };
@@ -17,6 +17,11 @@
 		0409DF2427DF918C003BFAA5 /* TabmanTabbarTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0409DF2327DF918C003BFAA5 /* TabmanTabbarTests.swift */; };
 		0409DF2E27DF918C003BFAA5 /* TabmanTabbarUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0409DF2D27DF918C003BFAA5 /* TabmanTabbarUITests.swift */; };
 		0409DF3027DF918C003BFAA5 /* TabmanTabbarUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0409DF2F27DF918C003BFAA5 /* TabmanTabbarUITestsLaunchTests.swift */; };
+		0409DF3E27DF9277003BFAA5 /* Tabman in Frameworks */ = {isa = PBXBuildFile; productRef = 0409DF3D27DF9277003BFAA5 /* Tabman */; };
+		0409DF4027DF96AA003BFAA5 /* HomeHomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0409DF3F27DF96AA003BFAA5 /* HomeHomeViewController.swift */; };
+		0409DF4227DF96D2003BFAA5 /* BrandViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0409DF4127DF96D2003BFAA5 /* BrandViewController.swift */; };
+		0409DF4427DF96EC003BFAA5 /* BestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0409DF4327DF96EC003BFAA5 /* BestViewController.swift */; };
+		0409DF4627DF9706003BFAA5 /* SaleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0409DF4527DF9706003BFAA5 /* SaleViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,7 +45,7 @@
 		0409DF0627DF918A003BFAA5 /* TabmanTabbar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TabmanTabbar.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0409DF0927DF918A003BFAA5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0409DF0B27DF918A003BFAA5 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		0409DF0D27DF918A003BFAA5 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		0409DF0D27DF918A003BFAA5 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		0409DF1027DF918A003BFAA5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		0409DF1327DF918A003BFAA5 /* TabmanTabbar.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = TabmanTabbar.xcdatamodel; sourceTree = "<group>"; };
 		0409DF1527DF918C003BFAA5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -51,6 +56,10 @@
 		0409DF2927DF918C003BFAA5 /* TabmanTabbarUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TabmanTabbarUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0409DF2D27DF918C003BFAA5 /* TabmanTabbarUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabmanTabbarUITests.swift; sourceTree = "<group>"; };
 		0409DF2F27DF918C003BFAA5 /* TabmanTabbarUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabmanTabbarUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		0409DF3F27DF96AA003BFAA5 /* HomeHomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeHomeViewController.swift; sourceTree = "<group>"; };
+		0409DF4127DF96D2003BFAA5 /* BrandViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BrandViewController.swift; sourceTree = "<group>"; };
+		0409DF4327DF96EC003BFAA5 /* BestViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BestViewController.swift; sourceTree = "<group>"; };
+		0409DF4527DF9706003BFAA5 /* SaleViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SaleViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +67,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0409DF3E27DF9277003BFAA5 /* Tabman in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,6 +91,7 @@
 		0409DEFD27DF918A003BFAA5 = {
 			isa = PBXGroup;
 			children = (
+				0409DF4727DF9720003BFAA5 /* VC */,
 				0409DF0827DF918A003BFAA5 /* TabmanTabbar */,
 				0409DF2227DF918C003BFAA5 /* TabmanTabbarTests */,
 				0409DF2C27DF918C003BFAA5 /* TabmanTabbarUITests */,
@@ -103,7 +114,7 @@
 			children = (
 				0409DF0927DF918A003BFAA5 /* AppDelegate.swift */,
 				0409DF0B27DF918A003BFAA5 /* SceneDelegate.swift */,
-				0409DF0D27DF918A003BFAA5 /* ViewController.swift */,
+				0409DF0D27DF918A003BFAA5 /* HomeViewController.swift */,
 				0409DF0F27DF918A003BFAA5 /* Main.storyboard */,
 				0409DF1527DF918C003BFAA5 /* Assets.xcassets */,
 				0409DF1727DF918C003BFAA5 /* LaunchScreen.storyboard */,
@@ -130,6 +141,17 @@
 			path = TabmanTabbarUITests;
 			sourceTree = "<group>";
 		};
+		0409DF4727DF9720003BFAA5 /* VC */ = {
+			isa = PBXGroup;
+			children = (
+				0409DF3F27DF96AA003BFAA5 /* HomeHomeViewController.swift */,
+				0409DF4127DF96D2003BFAA5 /* BrandViewController.swift */,
+				0409DF4327DF96EC003BFAA5 /* BestViewController.swift */,
+				0409DF4527DF9706003BFAA5 /* SaleViewController.swift */,
+			);
+			path = VC;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -146,6 +168,9 @@
 			dependencies = (
 			);
 			name = TabmanTabbar;
+			packageProductDependencies = (
+				0409DF3D27DF9277003BFAA5 /* Tabman */,
+			);
 			productName = TabmanTabbar;
 			productReference = 0409DF0627DF918A003BFAA5 /* TabmanTabbar.app */;
 			productType = "com.apple.product-type.application";
@@ -218,6 +243,9 @@
 				Base,
 			);
 			mainGroup = 0409DEFD27DF918A003BFAA5;
+			packageReferences = (
+				0409DF3C27DF9277003BFAA5 /* XCRemoteSwiftPackageReference "Tabman" */,
+			);
 			productRefGroup = 0409DF0727DF918A003BFAA5 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -261,10 +289,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0409DF4227DF96D2003BFAA5 /* BrandViewController.swift in Sources */,
 				0409DF1427DF918A003BFAA5 /* TabmanTabbar.xcdatamodeld in Sources */,
-				0409DF0E27DF918A003BFAA5 /* ViewController.swift in Sources */,
+				0409DF4427DF96EC003BFAA5 /* BestViewController.swift in Sources */,
+				0409DF0E27DF918A003BFAA5 /* HomeViewController.swift in Sources */,
 				0409DF0A27DF918A003BFAA5 /* AppDelegate.swift in Sources */,
 				0409DF0C27DF918A003BFAA5 /* SceneDelegate.swift in Sources */,
+				0409DF4027DF96AA003BFAA5 /* HomeHomeViewController.swift in Sources */,
+				0409DF4627DF9706003BFAA5 /* SaleViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -608,6 +640,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		0409DF3C27DF9277003BFAA5 /* XCRemoteSwiftPackageReference "Tabman" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/uias/Tabman";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		0409DF3D27DF9277003BFAA5 /* Tabman */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 0409DF3C27DF9277003BFAA5 /* XCRemoteSwiftPackageReference "Tabman" */;
+			productName = Tabman;
+		};
+/* End XCSwiftPackageProductDependency section */
 
 /* Begin XCVersionGroup section */
 		0409DF1227DF918A003BFAA5 /* TabmanTabbar.xcdatamodeld */ = {
